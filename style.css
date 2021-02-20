@@ -15,6 +15,7 @@ div{
    align-items: center;
    position: relative;
    left: 40%;
+   
 }
 div *{
     margin: 5px;
@@ -23,7 +24,13 @@ div *{
 div span {
     font-size: 30px;
     font-family: 'Orbitron', sans-serif;
+   
 }
 div p{
     font-size:20px ;
+    font-family: 'Orbitron', sans-serif;
+}
+
+div input{
+    margin: 10px;
 }

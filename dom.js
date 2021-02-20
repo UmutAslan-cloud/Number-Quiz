@@ -114,7 +114,7 @@ function renderQuestionField(i) {
     return `<div>
     <p>Hosgeldiniz ${personList[i].name}</p>
    <span id="question-field"><button type="button" class="btn btn-secondary" >Testi Baslat</button></span>
-   <input type="text" placeholder="Cevap" id="input-field">
+   <input type="text" placeholder="Cevap" id="input-field" onChange="this.value=''">
    <button id="button-field" type="button" class="btn btn-secondary">Cevapla</button>
    </div>`
 }
